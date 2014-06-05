@@ -31,6 +31,7 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+        int a = 5;
         return super.onOptionsItemSelected(item);
     }
 }
